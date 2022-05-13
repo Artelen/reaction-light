@@ -50,6 +50,7 @@ print(
 
 while True:
     token = input("\nPaste the token of your bot user (you can create one at: https://discord.com/developers/applications/)  ")
+    token = "OTc0NDE2MTU3NjY0NzU1NzQy.GoJtgh.TTDFxz1ocdqzS0AMbIN7K-tPLJ7AH43gGKl-64"
     if token.lower() == "help":
         print("\nThe bot token looks like this: NDYzODUwNzM2OTk3MTA1NjY2.XSH7WA.w0WPO4tafLJ9rZoitBq1Q43AgnQ\n")
 
@@ -62,6 +63,7 @@ while True:
 
 while True:
     name = input("\nInsert the name you wish to give the bot [Reaction Light]  ")
+    name = "shy bot"
     if name.lower() == "help":
         print("\nThe name will be shown in the embed footers created by the bot.")
 
@@ -75,6 +77,7 @@ while True:
 
 while True:
     logo = input("\nPaste the URL to your preferred logo file (should end in *.png, *.jpg, *.webp, ...)  [readme.md logo]  ")
+    logo = "https://cdn.discordapp.com/attachments/974085323900452864/974138327303344158/shyones_icon_background.PNG"
     if logo.lower() == "help":
         print("\nThe logo is the picture shown in the footer of the embeds.\n")
 
@@ -105,6 +108,7 @@ while True:
 
 while True:
     colour = input("Insert the hexadecimal value of the embed colour you prefer [0xffff00]  ")
+    colour = "0xffff00"
     if colour.lower() == "help":
         print("\nThe default is yellow. You can use a colour hex picker. You can change the colour later with a command\n")
 
